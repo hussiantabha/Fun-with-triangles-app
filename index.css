@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-color:#1D4ED8;
+    --secondary-color:#60A5FA;
+    --ow-gray:#F3F4F6;
+}
+.navigation{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+}
+.active {
+    font-size: bold;
+    font-size:1.25rem ;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+
+}
+ul{
+    text-align: right;
+    
+    
+}
+.item-list-inline{
+    display: inline;
+    padding-right: 1.25rem ;
+    text-align: right;
+}
+.navLinks{
+    text-decoration: none;
+    color:var(--primary-color);
+    padding:0.5rem 1rem;
+    color:white
+}
+/** Division values **/
+.values{
+    margin-top: 5rem;
+    text-align: center;
+}
+.enterAngle{
+    margin-top: 2rem;
+    width: 275px;
+    height: 20px;
+}
+#sub-btn{
+    margin-top: 5rem;
+}
+.display,#take-calInput,#calArea{
+    text-align: center;
+}
+#display-form{
+    display: inline;
+}
+#button{
+    text-align: center;
+    margin-top: 5rem;
+}
+#sub-Btn-1:hover{
+    background-color: black;
+    color: white;
+}
+#subBtn{
+    margin-top: 2rem;
+}
+/** Footer **/
+.item-list-inline{
+    display: inline;
+    padding-right: 1.25rem ;
+    text-align: right;
+}
+.navLinks{
+    text-decoration: none;
+    color:var(--primary-color);
+    padding:0.5rem 1rem;
+    color:white
+}
+.footer{
+    background-color: var(--secondary-color);
+    padding:0.5rem 1.5rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem ;
+
+}
+.footer .social-links{
+    padding-inline-start:0px ;
+    text-align: center;
+    padding: 0.5rem;
+}

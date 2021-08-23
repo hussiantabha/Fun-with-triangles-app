@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdn.statically.io/gh/ayshptk/html.css/main/flavor/white.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navigation container">
+        <ul>
+            <li class="item-list-inline"><a href="index.html" class="navLinks">Is it Triangle</a></li>
+            <li class="item-list-inline"><a href="quiz.html" class="navLinks active">Quiz</a></li>
+            <li class="item-list-inline"><a href="hypo.html" class="navLinks">Cal Area</a></li>
+        </ul>
+    </nav>
+    <div id="display-form">
+        <form id="questions">
+            <div id="questionOne">
+                <h4>1. In ΔABC, ∠C = ∠A and BC = 6 cm and AC = 5 cm. Then the length of AB is:</h4>
+                <label><input type="radio" name="question-1" value="5cm">5cm</label>
+                <label><input type="radio" name="question-1" value="2.5cm">2.5cm</label>
+                <label><input type="radio" name="question-1" value="6cm">6cm</label>
+            </div>
+            <div id="questionTwo">
+                <h4>2. If one angle of a triangle is equal to the sum of other two angles, then the triangle is</h4>
+                <label><input type="radio" name="question-2" value="obtuse">an obtuse triangle</label>
+                <label><input type="radio" name="question-2" value="right">a right triangle</label>
+                <label><input type="radio" name="question-2" value="isosceles">an isosceles triangle</label>
+            </div>
+            <div id="questionThree">
+                <h4>3. If ΔABC, is right angled at B, then :</h4>
+                <label><input type="radio" name="question-3" value="ans">AC > AB</label>
+                <label><input type="radio" name="question-3" value="2.5cm">AB = AC</label>
+                <label><input type="radio" name="question-3" value="6cm">AB = BC </label>
+            </div>
+            <div id="questionFour">
+                <h4>4. A ladder 6.5 m long is placed in a slanting position against a wall. Its top reaches a point on the wall which is 6 m above the ground. The distance of the bottom of the ladder from the wall is ____.</h4>
+                <p>Use calculator in the next tab</p>
+                <label><input type="radio" name="question-4" value="2.1cm">2.1cm</label>
+                <label><input type="radio" name="question-4" value="2.5cm">2.5cm</label>
+                <label><input type="radio" name="question-4" value="2.3cm">2.3cm </label>
+            </div>
+            <div id="questionFive">
+                <h4>5. In a right angled triangle, if one acute angle is half the other, then the smallest angle is:</h4> 
+                <label><input type="radio" name="question-5" value="30">30</label>
+                <label><input type="radio" name="question-5" value="25">25</label>
+                <label><input type="radio" name="question-5" value="35">35 </label>
+            </div>
+            <div id="button"><button id="subBtn-1">Submit</button></div>
+        </form>
+    </div>
+    <div class="display">
+        <h2 id="dispScore"></h2>
+    </div>
+    <footer class="footer container-center">
+        <div class="footer-header">Connect with me On Socials</div>
+        <ul class="social-links">
+            <li class="item-list-inline "><a href="https://github.com/hussiantabha" class="navLinks remove-align">Github</a></li>
+            <li class="item-list-inline "><a href="https://www.linkedin.com/in/hussain-tabha-329b081a1/" class="navLinks remove-align">LinkedIn</a></li>
+            <li class="item-list-inline "><a href="https://twitter.com/hussain_tabha" class="navLinks remove-align">Twitter</a></li>
+        </ul>
+    </footer>
+    <script src="appQuiz.js"></script>
+</body>
+
+</html>
